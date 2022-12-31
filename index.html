@@ -1,0 +1,40 @@
+<!DOCTYPE html gltf-model>
+<html>
+    
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+
+        <script src="https://cdn.rawgit.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+            <!--<a-marker preset="hiro">-->
+          
+            <a-marker-camera preset='custom' type='pattern' url='pattern-markerjpg.patt'></a-marker-camera>
+          
+                <a-gltf-model src="scene.gltf" scale="0.1 0.1 0.1"></a-gltf-model>
+          
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
+
+
+<!DOCTYPE html AR-Card>
+<!--<html>
+    
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+
+        <script src="https://cdn.rawgit.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-marker preset="hiro">
+          
+          <a-image src="youtube.png" id="homeThumbnail" rotation="90 0 0" scale="1 1 1" position="0 0 0"></a-image>
+  
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>-->
